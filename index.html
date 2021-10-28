@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danh sách</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="createRow">
+      <input type="text" id='name' placeholder="Họ tên">
+      <input type="number" id='daySkip' placeholder="Số buổi vắng">
+      <input type="number" id='midPoint' placeholder="Điểm giữa kì">
+      <input type="number" id='finalPoint' placeholder="Điểm cuối kì">
+      <button id='addRow'>Add</button>
+    </div>
+
+    <table id='table'>
+      <tr>
+        <th>Họ tên</th>
+        <th>Số buổi vắng</th>
+        <th>Điểm giữa kì</th>
+        <th>Điểm cuối kì</th>
+        <th>Điểm tổng kết</th>
+        <th>Đánh giá</th>
+      </tr>
+      <tr class="content">
+        <td>Nguyen Van A</td>
+        <td>0</td>
+        <td>9</td>
+        <td>9</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <button class="calButton" id="calButton">Tính điểm</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
